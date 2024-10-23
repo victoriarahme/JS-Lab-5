@@ -11,9 +11,10 @@ import { toUpperCase, toLowerCase } from './stringModule.js'
     console.log('Uppercase: ', toUpperCase('welcome to lab 5'));
     console.log('Lowercase:', toLowerCase('Welcome to lab 5'));
 
-import { findMax, reverseArray } from './array.js'
-    console.log('FindMmax:', findMax[16, 50, 25, 600]); 
+import { findMax, reverseArray } from './arrayModule.js'
+    console.log('FindMmax:', findMax([16, 50, 25, 600])); 
     console.log('ReverseArray:', reverseArray([17, 27, 8, 47]));
+
 
 //Task 2:
 import { addAndLogUpper } from './mathModule.js';
