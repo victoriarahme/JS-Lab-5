@@ -1,6 +1,6 @@
 //Step 1 + 2
 
-import multiply, { add, subtract } from './mathModule.js';
+import {multiply, add, subtract } from './mathModule.js';
     console.log('multiply:', multiply(6,4)); //I used different numbers than the question
   
     console.log('Add:', add (4, 4));
@@ -12,7 +12,7 @@ import { toUpperCase, toLowerCase } from './stringModule.js'
     console.log('Lowercase:', toLowerCase('Welcome to lab 5'));
 
 import { findMax, reverseArray } from './array.js'
-    console.log('FindMmax:', findMax([16, 50, 25, 600])); 
+    console.log('FindMax:', findMax([16, 50, 25, 600])); 
     console.log('ReverseArray:', reverseArray([17, 27, 8, 47]));
 
 
