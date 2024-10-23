@@ -1,7 +1,7 @@
 //Step 1 + 2
 
 import {multiply, add, subtract } from './mathModule.js';
-    console.log('multiply:', multiply(6,4)); //I used different numbers than the question
+    console.log('multiply:', multiply(6, 4)); //I used different numbers than the question
   
     console.log('Add:', add (4, 4));
     console.log('Subtract:', subtract (10, 4));
