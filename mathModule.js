@@ -24,7 +24,8 @@ export function addAndLogUpper(a, b) {
 }//?????????????
 
 //p 8
-export function maxMultiplyUpper(a,b) {
-    const result = multiply(findMax);
-    console.log(toUpperCase(result.toString()));
+export function maxMultiplyUpper(arr, b) {
+   const max = findMax(arr);
+   const result = multiply(max, b);
+   console.log(toUpperCase(result.toString()));
 }
