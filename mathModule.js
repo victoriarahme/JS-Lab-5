@@ -11,7 +11,7 @@ export function subtract(a,b) {
 //PART 5
 //Step 1:
 
-export default function multiply(a,b) {
+export function multiply(a,b) {
     return a * b;
 }
 
